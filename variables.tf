@@ -22,6 +22,11 @@ variable "description" {
   default = ""
 }
 
+variable "runtime" {
+  type = string
+  default = ""
+}
+
 variable "tags" {
   type = map
   default = {}
