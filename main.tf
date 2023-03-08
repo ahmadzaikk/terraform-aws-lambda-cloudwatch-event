@@ -15,7 +15,7 @@ data "archive_file" "DataSource" {
     function_name = var.function_name
     role          = var.role
     handler       = var.handler
-    runtime       = "python3.8"
+    runtime       = var.runtime
     timeout       = var.timeout
     description   = var.description
     tags          = var.tags
