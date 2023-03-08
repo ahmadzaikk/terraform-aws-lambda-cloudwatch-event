@@ -15,7 +15,7 @@ variable "function_name" {
 }
 
 variable "handler" {
-  default = ""
+  default = "lambda"
 }
 
 variable "description" {
