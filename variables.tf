@@ -29,18 +29,6 @@ variable "tags" {
 }
 
 
-variable "schedule_expression" {
-  type = string
-  description = "(optional) describe your variable"
-  default = ""
-}
-
-variable "cloudwatchrole_description" {
-  type = string
-  description = "(optional) describe your variable"
-  default = ""
-}
-
 variable "timeout" {
   type = string
   description = "(optional) describe your variable"
